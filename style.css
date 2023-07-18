@@ -1,0 +1,117 @@
+.element{
+    color: rgb(4, 0, 255);
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-rendering: geometricPrecision;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+}
+/* body{
+    background-color: brown;
+} */
+.element1{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-rendering: geometricPrecision;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+
+    color: rgb(255, 0, 0);
+}
+h1{
+    text-align: center;
+}
+/* #contentbg{
+    background-image: url('contentbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+} */
+#contentbg{
+    display: inline-block;
+    justify-content: left;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 21, 255);
+    border-bottom: 1px solid red;
+}
+
+/* .contentb{
+    background-color: aqua;
+} */
+.nav-link active{
+    background-color: blue;
+}
+
+/* .nav-link a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-link a.active {
+  background-color: #04AA6D;
+  color: white;
+} */
+.products{
+    display: flex;
+    justify-items: center;
+}
+
+.p{
+    text-align: center;
+    
+    background-color: aqua;
+}
+/* .card {
+    border: 3px solid rgb(243, 236, 236);
+    background-color: rgba(234, 239, 234, 0.668);
+    width: 400px;
+    height: 200px;
+    opacity: 70%;
+ }
+
+
+ .card h1 {
+    text-align: center;
+ }
+ .card:hover{
+    border: 8px solid rgb(255, 255, 255);
+    background-color: green;
+    opacity: 100%;
+ } */
+
+ .card-body:hover{
+    
+    font-weight: bold;
+    color: rgb(0, 17, 255);
+    background-color: aqua;
+ }
+
+ .card-title{
+    text-decoration: none;
+    text-align: center;
+ }
+
+ .card-img-top:hover{
+    opacity: 100%;
+    border: 4px ridge rgb(239, 43, 210);
+ }
+ .button{
+    text-align: center;
+ }
+
+ .button:hover{
+    color: red;
+   
+ }
