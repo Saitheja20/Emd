@@ -90,15 +90,26 @@ h2{
     background-color: green;
     opacity: 100%;
  } */
+.card{
+  transition: all;
+}
+.card:hover{
+   
+    opacity: 100%;
+    transform: scale(1.17);
+ } 
 
  .card-body:hover{
-    
     font-weight: bold;
     color: rgb(0, 17, 255);
     background-color: aqua;
  }
+.card-body{
+    background-color: rgba(222, 222, 222, 0.219);
+ }
 
  .card-title{
+      color: blue;
     text-decoration: none;
     text-align: center;
  }
