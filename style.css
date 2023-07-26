@@ -87,7 +87,7 @@ h2{
  }
  .card:hover{
     border: 8px solid rgb(255, 255, 255);
-    background-color: green;
+/*     background-color: green; */
     opacity: 100%;
  } */
 .card{
