@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -154,9 +154,8 @@
  
   <div class="card">
     <a href="#" >
-      <br>
+    
     <img class="card-img-top" src="veterneri2.png" alt="medicines">
-    <br>
     
     <div class="card-body">
       <h5 class="card-title">Veterinary Medicines</h5>
@@ -208,8 +207,7 @@
 <div class="card">
   <a href="#" >
   <img class="card-img-top" src="animalinsurance.png" alt="Animal insurance">
-  <br>
-  <br>
+  
   <div class="card-body">
     <h5 class="card-title">Animal insurance</h5>
     <p class="card-text"></p>
@@ -222,9 +220,7 @@
   <div class="card">
     <a href="#">
     <img class="card-img-top" src="waterdrink.png" alt="Pure Water">
-    <br>
-    <br>
-    <br>
+    
     <div class="card-body">
       <h5 class="card-title">Pure Water</h5>
       <p class="card-text"></p>
@@ -254,6 +250,49 @@
 
   </div>
 </section>
+
+<!-- |||||||||||||||||||||||||||||counting starts|||||||||||||||||||||||||||||| -->
+<section>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-3 col">
+      <div class="counter-container">
+        <div class="counter-item">
+          <h3><span class="counter">545</span>  <br>Projects</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-3 col">
+      <div class="counter-container">
+        <div class="counter-item">
+          <h3><span class="counter">90</span> <br> clients </h3> 
+           </div>
+      </div>
+    </div>
+    <div class="col-xs-3 col">
+      <div class="counter-container">
+        <div class="counter-item">
+          <h3><span class="counter">190</span> <br> working hourse </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-3 col">
+      <div class="counter-container">
+        <div class="counter-item">
+          <h3><span class="counter">550</span> <br>Awards won </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+
+<!-- |||||||||||||||||||||||||||||counting Ends|||||||||||||||||||||||||||||| -->
+
 <!-- |||||||||||||||||||||||Javascript |||||||||||||||||||||||-->
 <script>
     var typed = new Typed('.element', {
@@ -268,7 +307,20 @@ var typed = new Typed('.element1', {
   backtype:20,
 loop:true
 });
+
+
     </script>
+
+<script src="jquery.counterup.min.js"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+          delay: 1,
+          time: 120
+      });
+  });
+</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
